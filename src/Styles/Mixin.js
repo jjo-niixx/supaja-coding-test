@@ -1,10 +1,11 @@
 import { css } from "styled-components";
 
 const mixin = {
-  border: (width = "1px", color = "#e9edef") => css`
-    border-width: ${width};
+  border: (color = "#dadada") => css`
+    border-width: 1px;
     border-style: solid;
     border-color: ${color};
+    border-radius: 3px;
   `,
 };
 

@@ -50,8 +50,16 @@ ol[class] {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:not([class]) {
   text-decoration-skip-ink: auto;
+}
+
+input:focus {
+  outline: none;
 }
 
 img {
